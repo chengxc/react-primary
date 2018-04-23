@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from './logo.svg'
+
+//eslint-disable-next-line
 import User from './User'
 
 // 获取商品数据
