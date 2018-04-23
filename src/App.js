@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo.svg'
+import User from './User'
 
 // 获取商品数据
 import productData from './json/product.json'
@@ -39,6 +40,7 @@ class App extends React.Component {
               )
             })}
         </ul>
+        <User user={{name: 'zs', age: 18, gender: '男'}}/>
       </div>
     )
   }
